@@ -1,0 +1,46 @@
+﻿* {
+    font-size:2mm;
+    max-width:40mm;
+    padding:0px;
+    margin:0px;
+}
+ul {
+    list-style-type:none;
+    min-height:10mm;
+}
+li {
+    float:left;
+    width:4cm;
+}
+.printblock {
+}
+body {
+    width:40mm;
+}
+html {
+    width:40mm;
+}
+.fwbeoiughsdf {
+    width:40mm;
+    height:5mm;
+}
+.order_display_div2 {
+    width:40mm;
+    height:5mm;
+}
+ul.orderlist li div {
+}
+.detailtotal {
+    display:none;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+ul.orderlist li {
+    border-top:1px solid;
+}
+.order_display_div {
+}

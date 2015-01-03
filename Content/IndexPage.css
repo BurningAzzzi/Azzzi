@@ -1,0 +1,32 @@
+﻿body {
+}
+.AdvertisementListDiv {
+    width:100%;
+    margin:0px auto;
+}
+.hr1 {
+    height:5px;
+    background-color:transparent;
+}
+.hr2 {
+    height:10px;
+    background-color:transparent;
+}
+.ShopAdvertisementsDiv {
+    max-width:1000px;
+    margin:0 auto;
+}
+.ShopAdvertisementsDiv div{
+    float:left;
+}
+
+.AdvertisementPicsDiv {
+    margin-bottom:10px;
+}
+.AdvertisementBottomDiv {
+    background-color:transparent;
+    margin-top:1px;
+    height:1px;
+    width:100%;
+    clear:both;
+}

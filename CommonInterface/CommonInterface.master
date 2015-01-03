@@ -1,0 +1,41 @@
+﻿<%@ master language="C#" masterpagefile="~/Site.master" autoeventwireup="true" inherits="CommonInterface_CommonInterface, App_Web_eq4e3gqo" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+
+    <section id="section_body">
+        <aside class="common_interface_aside">
+            <nav class="common_interface_nav"> 
+                <%--<ul>
+                    <li><a href="AdManage.aspx">广告管理</a></li>
+                    <li><a href="ItemManage.aspx">商品管理</a></li>
+                </ul>--%>
+                <div class="ArticleTitleDiv">
+                   <asp:HyperLink runat="server" Text="店铺首页" ID="MY_SHOP_URL"></asp:HyperLink>
+                </div>
+                <div class="ArticleTitleDiv">
+                    <a href="AdManage.aspx">广告管理</a>
+                </div>
+                <div class="ArticleTitleDiv">
+                    <a href="ItemManage.aspx">商品管理</a>
+                </div>
+                <div class="ArticleTitleDiv">
+                    <a href="NoticeEdit.aspx">公告管理</a>
+                </div>
+                <div class="ArticleTitleDiv">
+                    <a href="Orders.aspx">查看订单</a>
+                </div>
+                <div class="clear"></div>
+            </nav>
+        </aside>
+        <div class="common_interface_maincontent">
+            <asp:ContentPlaceHolder runat="server" ID="ManageContent">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </section>
+</asp:Content>
+

@@ -1,0 +1,173 @@
+﻿/*模板页及默认页面的样式表*/
+
+body {
+    font-family: Microsoft YaHei;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #CCCCCC;
+}
+h1 {
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+h2 {
+    font-family: 仿宋;
+    font-size: x-large;
+    padding:0;
+    margin:0;
+}
+a {
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration:none;
+    color: #000000;
+}
+#main_content {
+    width: 1080px;
+    background-color:#9999FF;
+    padding:15px;
+    height: auto;
+    margin: 5px auto;
+}
+header {
+    background-color: #FFFFCC;
+    padding:10px;
+}
+header#master_head {
+    border-bottom: 10px solid #C0C0C0;
+}
+#section_body {
+    border-radius:5px;
+}
+aside {
+    background-color: #FFCCCC;
+    width: 16%;
+    float: left;
+    min-height: 400px;
+    height: 100%;
+}
+aside nav {
+    width:100%;
+}
+aside nav a {
+    cursor:pointer;
+}
+.result_tip {
+    text-align:center;
+    font-size:20px;
+}
+#section_manage_panel {
+    width: 84%;
+    float: right;
+    background-color: #FFFF99;
+    min-height:400px;
+}
+#load_wrapper {
+    padding:15px 20px;
+    background-color:#FFFF99;
+}
+ul {
+    margin:0;
+    padding:0;
+    padding-top:30px;
+}
+ul li {
+    height: 50px;
+    margin-left: 0;
+    list-style-type: none;
+    line-height:50px;
+    text-align: center;
+    font-size:25px;
+    background-color: #FFCCCC;
+}
+    ul li:hover {
+    background-color: #FFFF99;
+    }
+
+footer {
+    background-color: #FFFFCC;
+    padding:20px;
+    text-align:center;
+}
+.clear {
+    clear:both;
+}
+table p,table a{
+    width:100%;
+    display:block;
+    text-align:center;
+}
+
+.manage_list_header_left {
+    float:left;
+    margin-right:20px;
+}
+
+.manage_list_header_right {
+    float:right;
+}
+.tip_bar {
+    width: 100%;
+    height:auto;
+    text-align: center;
+    line-height: 30px;
+    background-color: #99CCFF;
+}
+.tip_bar_wrapper {
+    min-height:30px;
+}
+
+.load_wrapper {
+}
+/*广告管理页面*/
+#manage_head_wrapper {
+    height:30px;
+}
+
+/*用户管理页面*/
+.roles_list_box {
+    width:100%;
+}
+
+.user_in_roles_gridview {
+    width:90%;
+    text-align:left;
+}
+.user_control {
+    padding:5px;
+    margin-bottom:20px;
+}
+    .user_control fieldset {
+        min-height:380px;
+    }
+.user_control_left {
+    width:25%;
+}
+.user_control_add {
+    padding-top:190px;
+    margin-left:20px;
+}
+
+.user_control_mid {
+    margin-left:10px;
+    width:35%;
+}
+.user_control_right {
+    margin-left:30px;
+    width: 15%;
+}
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+p {
+    word-break:break-all;
+}

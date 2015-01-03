@@ -1,0 +1,146 @@
+﻿body {
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+div.hotel {
+    width:900px;
+    height:300px;
+    border-radius:25px;
+    background:none;
+    margin:0 auto;
+    margin-top:20px;
+    border:0;
+    margin-bottom:50px;
+    box-shadow:5px 5px 5px black;
+}
+div.hotel:hover {
+    box-shadow:0px 0px 30px black;
+}
+div.hotel img {
+    border:0;
+    border-radius:25px;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+div.hotellogo {
+    box-shadow: 2px 2px 2px gray;
+    background-color: #FFFFCC;
+    padding: 0;
+    padding-right: 10px;
+    overflow: hidden;
+    height: 180px;
+    font-size: 17px;
+    font-family: Microsoft YaHei;
+}
+div.hotelitemslist {
+    box-shadow: 2px 2px 2px black;
+    background-color: #FFFFCC;
+    padding: 15px;
+    padding-top:1px;
+    margin-bottom:20px;
+}
+
+
+
+div.hotels_list {
+    width:100%;
+}
+.hotels_title {
+    width:100%;
+    height:80px;
+    margin:0 auto;
+}
+a.hotels_title_a {
+    width:140px;
+    height:46px;
+    display:inline-block;
+    text-align:center;
+    line-height:50px;
+    font-size:35px;
+    color:white;
+    margin-left:20px;
+    margin-top:15px;
+    background-image:url(../Images/ArticleTitleBg.jpg);
+}
+.hotels_list_hotels {
+    width:960px;
+    clear:both;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+.hotel_style {
+    width:300px;
+    height:400px;
+    background:white;
+    margin-left:8px;
+    margin-right:10px;
+    float:left;
+    border:1px solid #ccc;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.hotel_style ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+.hotel_style ul li {
+    float:left;
+    display:block;
+    width:100%;
+}
+.hotel_style ul li.shop_name {
+    text-align:center;
+    height:50px;
+    color:#f39806;
+    font-size:35px;
+    line-height:35px;
+    padding-top:20px;
+    font-weight:900;
+}
+    .hotel_style ul li.shop_name a {
+        color:#f39806;
+        line-height:35px;
+        font-size:35px;
+    }
+
+.hotel_style ul li.shop_score {
+        text-align:center;
+        height:30px;
+        color:#f39806;
+        font-size:65px;
+        line-height:35px;
+        font-weight:900;
+    }
+.hotel_style ul li.shop_content {
+        text-align:left;
+        text-indent:20px;
+        height:190px;
+        background:#eae8e8;
+        color:#f39806;
+        font-weight:900;
+    }
+    .hotel_style ul li.shop_content p{
+        margin-top:50px;
+        margin-left:20px;
+        margin-right:20px;
+        color:#777;
+    }
+.hotel_style ul li.shop_address {
+        height:30px;
+        background:#eae8e8;
+        line-height:30px;
+        text-indent:20px;
+        font-size:20px;
+    }
+.hotel_style ul li.shop_phone {
+        height:30px;
+        line-height:30px;
+        background:#eae8e8;
+        text-indent:20px;
+        font-size:20px;
+    }

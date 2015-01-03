@@ -1,0 +1,85 @@
+
+/* Easy Slider */
+
+	#easyslider ul, #easyslider li,
+	#easyslider2 ul, #easyslider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#easyslider2{margin-top:1em;}
+	#easyslider li, #easyslider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:730px;
+		height:450px;
+		overflow:hidden; 
+		}
+        #easyslider li img{
+            width:730px;
+            height:450px;
+        }
+	#prevBtn, #nextBtn,
+	#easyslider1next, #easyslider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		z-index:1000;
+		}	
+	#nextBtn, #easyslider1next{ 
+		left:696px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#easyslider1next a, #easyslider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		background:url(../images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #easyslider1next a{ 
+		background:url(../images/btn_next.gif) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls {
+    margin: 1em 0;
+    padding: 5px 0px 7px 10px;
+    height: 28px;
+    float: left;
+    position: relative;
+    width: 100%;
+    top: -54px;
+    background-color: rgbA(0, 0, 0,0.3) ;
+}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#5DC9E1;
+		color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */
